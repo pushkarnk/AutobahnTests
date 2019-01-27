@@ -17,3 +17,6 @@ docker build -t $TAG $DOCKERFILE_PATH
 docker build -t autobahn:$OS_DOT_SWIFT --build-arg TAG=$TAG .
 
 docker run -v `pwd`:/AutobahnTests -t autobahn:$OS_DOT_SWIFT
+
+echo "\n\n\nFinished autobahn testing with Swift $SWIFT_VERSION on Ubuntu $UBUNTU_VERSION".
+echo "\nIssue \"open reports/servers/index.html\" to view results."
