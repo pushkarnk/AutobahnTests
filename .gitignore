@@ -1,0 +1,9 @@
+Package.resolved
+swift-docker
+reports
+fuzzingclient.json
+.build
+build
+Packages
+KituraNet.xcodeproj
+*.DS_Store
