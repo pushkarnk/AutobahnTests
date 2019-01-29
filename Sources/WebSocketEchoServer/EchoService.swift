@@ -14,7 +14,6 @@ class EchoService: WebSocketService {
     }
 
     public func received(message: String, from: WebSocketConnection) {
-        Log.info("Got message \(message)... sending it back")
         from.send(message: message)
     }
 }
