@@ -1,7 +1,6 @@
 import Foundation
 
 import KituraWebSocket
-import LoggerAPI
 
 class EchoService: WebSocketService {
 

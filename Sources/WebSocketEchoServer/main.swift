@@ -1,10 +1,6 @@
 import Foundation
 import Kitura
 import KituraWebSocket
-import HeliumLogger
-
-// Using an implementation for a Logger
-HeliumLogger.use(.info)
 
 let router = Router()
 
